@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvodya - Connecting Volunteers with Organizations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <p id="ref">SARVODYA</p>
+            <img src="download.jpeg" alt="error">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="parallax home" id="home">
+        <div class="content">
+            <h1>Welcome to Sarvodya</h1>
+            <p>Connecting Passionate Volunteers with Meaningful Causes</p>
+            <div class="cta-buttons">
+                <a href="#volunteer" class="btn primary">Become a Volunteer</a>
+                <a href="#organization" class="btn secondary">Register Organization</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Sarvodya is a platform dedicated to bridging the gap between willing volunteers and organizations in
+                need. We believe in the power of community service and making a positive impact in society.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h3>1000+</h3>
+                    <p>Active Volunteers</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-building"></i>
+                    <h3>200+</h3>
+                    <p>Organizations</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>500+</h3>
+                    <p>Projects Completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Volunteer Matching</h3>
+                    <p>Connect with organizations that match your interests and skills</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Event Management</h3>
+                    <p>Organize and participate in community service events</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certification</h3>
+                    <p>Earn certificates for your volunteer work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="volunteer" id="volunteer">
+        <div class="container">
+            <h2>Become a Volunteer</h2>
+            <div class="form-container">
+                <form id="volunteerForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <select id="interests" required>
+                            <option value="">Select Your Interest Area</option>
+                            <option value="education">Education</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="environment">Environment</option>
+                            <option value="social">Social Work</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tell us about yourself"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Register as Volunteer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@sarvodya.org</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+1 234 567 8900</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p>123 Volunteer Street, City, Country</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sarvodya</h3>
+                    <p>Connecting hearts, building communities</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#volunteer">Volunteer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sarvodya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
